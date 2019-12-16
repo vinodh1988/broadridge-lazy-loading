@@ -90,7 +90,7 @@ To find chunks for each module created
 When you load the the home page only the home chunk is loaded
 
 
-![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/homechunk.JPG)
+![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/homechunck.JPG)
 
 And When you click project link and then only project chunk js is loaded
 
