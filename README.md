@@ -50,7 +50,31 @@ export default class  extends PureComponent {
   }
 };
 
+```
 
+# Component imports
+
+Import the components using the following code
+
+```javascript
+
+const home = () => import(/* webpackChunkName: "home" */ './modules/home/index');
+const projects = () => import(/* webpackChunkName: "projects" */ './modules/projects/index');
+const contact = () => import(/* webpackChunkName: "contact" */ './modules/contact/index');
+
+```
+
+And Call the Async Component in the following way in the route configuration
+
+```javascript
+
+ <Router>
+    <AppTemplate>
+      <Route path={basePath``} exact={true} component={() => <AsyncComponent moduleProvider={home} />} />
+      <Route path={basePath`projects`} exact={true} component={() => <AsyncComponent moduleProvider={projects} />} />
+      <Route path={basePath`contact`} exact={true} component={() => <AsyncComponent moduleProvider={contact} />} />
+    </AppTemplate>
+   </Router>
 
 ```
 
