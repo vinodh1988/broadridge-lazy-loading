@@ -1,13 +1,24 @@
 # React Webpack Lazy Loading
 ## A sample of lazy loading using React and Webpack
 
-Check the live version [here](https://rubenspgcavalcante.github.io/react-webpack-lazy-loading/)
 
 ### Objective
 Do a feature based lazy loading using React components and Webpack
 
-### Important!
-This is a bare minimun setup just to show how it works. Isn't intended to be a complete web app.
+# Async Loading Setup
+
+Adding the following property in webpack.config.js
+
+```javascript
+output: {
+    path: resolve(__dirname, 'dist/'),
+    filename: "[name].bundle.js",
+    chunkFilename: "[name].chunk.js",
+    publicPath: process.env.NODE_ENV === 'development' ? "/dist/" : "/react-webpack-lazy-loading/dist/"
+  }
+```
+
+
 
 ### License
 This project is under the MIT license
