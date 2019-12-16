@@ -11,7 +11,7 @@ export default ({children}) => (
     </nav>
     <div className="container">
       <div className="card">
-        
+        <h1>Component is loaded</h1>
         {children}
       </div>
     </div>

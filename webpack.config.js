@@ -12,18 +12,6 @@ module.exports = {
     chunkFilename: "[name].chunk.js",
     publicPath: process.env.NODE_ENV === 'development' ? "/dist/" : "/react-webpack-lazy-loading/dist/"
   },
-  optimization: {
-    splitChunks: {
-     cacheGroups: {
-    
-      vendor: {
-       test: /node_modules/,
-       chunks: 'initial',
-       name: 'vendor',
-       enforce: true
-      },
-     }
-    } },
   module: {
     rules: [
       {

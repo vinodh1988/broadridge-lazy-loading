@@ -87,5 +87,13 @@ To find chunks for each module created
 ![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/build.JPG)
 
 
-### License
-This project is under the MIT license
+When you load the the home page only the home chunk is loaded
+
+
+![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/homechunk.JPG)
+
+And When you click project link and then only project chunk js is loaded
+
+
+![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/projectchunk.JPG)
+
