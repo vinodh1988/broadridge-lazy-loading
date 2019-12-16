@@ -78,6 +78,14 @@ And Call the Async Component in the following way in the route configuration
 
 ```
 
+Run 
+
+> npm run dev
+
+To find chunks for each module created 
+
+![alt text](https://vinodh-images.s3.ap-south-1.amazonaws.com/projectimages/build.JPG)
+
 
 ### License
 This project is under the MIT license
